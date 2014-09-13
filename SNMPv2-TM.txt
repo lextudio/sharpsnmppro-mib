@@ -2,9 +2,9 @@ SNMPv2-TM DEFINITIONS ::= BEGIN
 
 IMPORTS
     MODULE-IDENTITY, OBJECT-IDENTITY,
-    snmpModules, snmpDomains, snmpProxys, Integer32
+    snmpModules, snmpDomains, snmpProxys
         FROM SNMPv2-SMI
-    TEXTUAL-CONVENTION -- --
+    TEXTUAL-CONVENTION
         FROM SNMPv2-TC;
 
 snmpv2tm MODULE-IDENTITY
